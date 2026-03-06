@@ -2,6 +2,7 @@
 recordings/
 *.wav
 *.zip
+!data/*.zip
 
 # Saved model weights and checkpoints
 *.h5
