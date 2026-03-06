@@ -1,0 +1,52 @@
+# Dataset and audio files
+recordings/
+*.wav
+*.zip
+
+# Saved model weights and checkpoints
+*.h5
+*.keras
+*.pb
+saved_model/
+checkpoints/
+
+# NumPy arrays (preprocessed data)
+*.npy
+*.npz
+
+# TensorBoard logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Office documents (generated reports)
+*.docx
+*.doc
